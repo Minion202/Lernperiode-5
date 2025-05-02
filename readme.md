@@ -8,8 +8,8 @@ Wie können Sie Ihr Projekt aus der Lernperiode 4 um eine Persistenz-Lösung erw
 
 Ich möchte die Spielergebnisse meines Memoryspiels in einer SQL-Datenbank speichern. Jedes Mal, wenn Spieler 1 oder Spieler 2 gewinnt, soll dieser Sieg automatisch in der Datenbank erfasst werden. Ziel ist es, später nachvollziehen zu können, welcher Spieler bisher öfter gewonnen hat.
 Dazu plane ich zwei Tabellen:
-o Players:Diese Tabelle speichert Informationen über die Spieler (z. B. ID und Name).
-o memory_game_results: Diese Tabelle erfasst die einzelnen Spielergebnisse, also wer wann gewonnen hat.
+- Players:Diese Tabelle speichert Informationen über die Spieler (z. B. ID und Name).
+- memory_game_results: Diese Tabelle erfasst die einzelnen Spielergebnisse, also wer wann gewonnen hat.
 
 
 ## 2.5
