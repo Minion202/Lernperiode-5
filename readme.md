@@ -18,7 +18,9 @@ Dazu plane ich zwei Tabellen:
 - [x] Lernperiode-4 verbessern(gif hinzufügen, fertiges Projekt beschreiben) & Grobplanung machen
 - [x] SQL Datenbank erstellen mit Daten, die benutzten ich benutzen möchte Spieler 1 Wins oder Spieler 2 Wins)
 
-Heute habe ich 
+Heute habe ich zuerst meine letzte Lernperiode überarbeitet, fehlende Inhalte ergänzt und einige Fehler korrigiert. Anstelle eines Bildes habe ich diesmal ein GIF erstellt.
+Danach habe ich meine Datenbank aufgebaut und zwei Tabellen erstellt. Dabei habe ich für beide Tabellen IDs und Primary Keys definiert.
+
 
 ## 9.5 Kernfunktionalität
 
