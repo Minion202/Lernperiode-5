@@ -10,12 +10,10 @@ Wie können Sie Ihr Projekt aus der Lernperiode 4 um eine Persistenz-Lösung erw
 
 ## 2.5
 
-- [ ] ...
-- [ ] ...
+- [x] Lernperiode-4 verbessern(gif hinzufügen, fertiges Projekt beschreiben) 
+- [ ] SQL Datenbank erstellen mit Daten, die benutzten ich benutzen möchte Spieler 1 Wins oder Spieler 2 Winne)
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, Ihr bestehendes Projekt und die Neuerungen von heute hochzuladen. Beschreiben Sie eindeutig, was heute an Code dazugekommen ist.
+Heute habe ich 
 
 ## 9.5 Kernfunktionalität
 
