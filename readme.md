@@ -10,14 +10,14 @@ Ich möchte die Spielergebnisse meines Memoryspiels in einer SQL-Datenbank speic
 
 Dazu plane ich zwei Tabellen:
 - Players:Diese Tabelle speichert Informationen über die Spieler (z. B. ID und Name).
-- memory_game_results: Diese Tabelle erfasst die einzelnen Spielergebnisse, also wer wann gewonnen hat.
+- 'memory_game_results': Diese Tabelle erfasst die einzelnen Spielergebnisse, also wer wann gewonnen hat.
 
 
 ## 2.5
 
 - [x] Lernperiode-4 verbessern(gif hinzufügen, fertiges Projekt beschreiben) & Grobplanung machen
 - [x] SQL Datenbank erstellen mit Daten, die benutzten ich benutzen möchte Spieler 1 Wins oder Spieler 2 Wins)
-- [x] SQL Datenbanktabellen erstellen.(players, memory_game_results und gamesplayed)
+- [x] SQL Datenbanktabellen erstellen.(players, 'memory_game_results' und 'gamesplayed')
 
 Heute habe ich zuerst meine letzte Lernperiode überarbeitet, fehlende Inhalte ergänzt und einige Fehler korrigiert. Anstelle eines Bildes habe ich diesmal ein GIF erstellt.
 Danach habe ich meine Datenbank aufgebaut und zwei Tabellen erstellt. Dabei habe ich für beide Tabellen IDs und Primary Keys definiert.
