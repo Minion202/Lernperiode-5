@@ -25,20 +25,18 @@ Danach habe ich meine Datenbank aufgebaut und zwei Tabellen erstellt. Dabei habe
 
 ## 9.5 Kernfunktionalität
 
-- [ ] Statistik-Ideen skizzieren: Welche Statistiken möchte ich im Spiel zeigen.
-- [ ] Siegezähler programmieren(Wie oft Spieler 1 oder 2 gewonnen haben)
-- [ ] Verbinde dein Spiel mit der Datenbank(Ergebnis nach jedem Spiel automatisch speichern)
+- [x] Siegezähler programmieren(Wie oft Spieler 1 oder 2 gewonnen haben)
+- [x] Verbinde dein Spiel mit der Datenbank(Ergebnis nach jedem Spiel automatisch speichern)
       
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich erfolgreich meine Datenbank eingerichtet, die nun einwandfrei funktioniert. Ich habe Tabellen angelegt,
+und jetzt werden die Daten jedes Mal gespeichert, wenn Spieler 1 oder Spieler 2 gewinnt.
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 16.5 Kernfunktionalität und Ausbau
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Spieler-Login einrichten: Beim Spielstart soll der Spieler auswählen können, ob er neu ist oder bereits gespielt hat.
+- [ ] Spielernamen verwalten: Bestehende Spieler können ihren Namen aus einer Liste auswählen. Neue Spieler können einen Namen erstellen, der gespeichert wird.
+- [ ] Datenbank-Anbindung: Die Spielernamen sollen automatisch mit der Datenbank verknüpft und in den entsprechenden Tabellen gespeichert werden.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
