@@ -54,6 +54,15 @@ namespace MemoryGame
             _connection = new SqliteConnection("Data Source=/Users/mina/RiderProjects/MemoryGame/identifier.sqlite");
             _connection.Open();
             
+            var newPlayerButton = this.FindControl<Button>("NewPlayerButton");
+            var existingPlayerButton = this.FindControl<Button>("ExistingPlayerButton");
+            var newPlayerPanel = this.FindControl<StackPanel>("NewPlayerPanel");
+            var existingPlayerPanel = this.FindControl<StackPanel>("ExistingPlayerPanel");
+            var newPlayerName = this.FindControl<TextBox>("NewPlayerName");
+            var saveNewPlayerButton = this.FindControl<Button>("SaveNewPlayerButton");
+            var existingPlayersComboBox = this.FindControl<ComboBox>("ExistingPlayersComboBox");
+            var selectExistingPlayerButton = this.FindControl<Button>("SelectExistingPlayerButton");
+            
             _buttons = new List<Button>
             {
                 this.FindControl<Button>("Button1"), this.FindControl<Button>("Button2"),
