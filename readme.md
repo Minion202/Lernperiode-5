@@ -34,18 +34,17 @@ und jetzt werden die Daten jedes Mal gespeichert, wenn Spieler 1 oder Spieler 2 
 
 ## 16.5 Kernfunktionalität und Ausbau
 
-- [ ] Spieler-Login einrichten: Beim Spielstart soll der Spieler auswählen können, ob er neu ist oder bereits gespielt hat.
-- [ ] Spielernamen verwalten: Bestehende Spieler können ihren Namen aus einer Liste auswählen. Neue Spieler können einen Namen erstellen, der gespeichert wird.
-- [ ] Datenbank-Anbindung: Die Spielernamen sollen automatisch mit der Datenbank verknüpft und in den entsprechenden Tabellen gespeichert werden.
+- [x] Spieler-Login einrichten: Beim Spielstart soll der Spieler auswählen können, ob er neu ist oder bereits gespielt hat.
+- [x] Spielernamen verwalten: Bestehende Spieler können ihren Namen aus einer Liste auswählen. Neue Spieler können einen Namen erstellen, der gespeichert wird.
+- [x] Datenbank-Anbindung: Die Spielernamen sollen automatisch mit der Datenbank verknüpft und in den entsprechenden Tabellen gespeichert werden.
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich versucht, die Datenbankbindung umzusetzen. Leider gab es viele Fehler im Code, was dazu führte, dass ich alles von vorne Anfangen musste.
+Aktuell bin ich dabei, den Fehler zu finden und zu korrigieren. Mein Codes enthält noch ein paar Fehler, die ich suchen und beheben möchte.
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 23.5 Abschluss
 
-- [ ] ...
-- [ ] ... (falls Ihnen nichts einfällt: Können Sie mit einem PowerShell-Skript von Ihrer Datenbank regelmäßig ein *backup* erstellen?)
+- [ ] Die Fehler, die ich gemacht habe beheben.
 - [ ] Reflexion über Ihre Arbeitsweise
 - [ ] Beschreibung des fertigen Projekts mit .gif etc.
 
