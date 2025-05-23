@@ -48,13 +48,17 @@ Aktuell bin ich dabei, den Fehler zu finden und zu korrigieren. Mein Codes enth�
 - [x] Reflexion über Ihre Arbeitsweise
 - [x] Beschreibung des fertigen Projekts mit .gif etc.
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich versucht, die bisherigen Fehler in meinem Code zu korrigieren. Zwar funktioniert nun die Eingabe der Spielernamen, was ein Fortschritt ist, jedoch besteht weiterhin das Problem, dass immer Player 1 ist an der Reihe/ "name"ist an der Reihe angezeigt wird, was nicht zum Spielverlauf passt.
 
 
 ## Fertiges Projekt
 
-In meinem fertigen Projekt darum dass ich vorherigen code vom Memoryspiel mit meiner Datenbank verbunden habe. Nun zählt es jedes mal mit, wenn man gegeneinander spielt und man kann auf meiner daten bank sehen wenn und wie 
+In meinem fertigen Projekt habe ich den bestehenden Code des Memoryspiels erfolgreich mit einer Datenbank verbunden. Nun wird jedes Spiel zwischen zwei Spielern automatisch in der Datenbank erfasst, wann gespielt wurde, sowie die gewinner des Spiels. Bei der Auswahl des Zwei-Spieler-Modus kann man auch die Namen der Spieler eingeben.
+Einige kleinere Fehler bestehen noch: Zum Beispiel verschwinden die eingegebenen Namen kurzzeitig, wenn ein Punkt gemacht wird. Ausserdem wird immer noch angezeigt, dass „Player 1“ oder der Name von Spieler 1 am Zug ist unabhängig vom Spielverlauf. Auch diesen Fehler werde ich später noch beheben.
 
 ## Reflexion
 
-✍️ Was ging gut, was ging weniger gut? Was haben Sie gelernt, und was würden Sie bei der nächsten Lernperiode versuchen besser zu machen? Fassen Sie auch einen übergeordneten Vorsatz für Ihr nächstes Jahr im Lernatelier (100 bis 200 Wörter).
+✍Was ging gut, was ging weniger gut? Was haben Sie gelernt, und was würden Sie bei der nächsten Lernperiode versuchen besser zu machen? Fassen Sie auch einen übergeordneten Vorsatz für Ihr nächstes Jahr im Lernatelier (100 bis 200 Wörter).
+
+
+Das Arbeiten mit der Datenbank, war für mich gesehen das einfachste and diesem Projekt, es war nicht sehr schwer die datenbank zu erstellen, der eigentliche schwere punkt war es die datenbank mit meinen code zu verbinden, weil ich 
