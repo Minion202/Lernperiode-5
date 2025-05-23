@@ -58,7 +58,7 @@ Einige kleinere Fehler bestehen noch: Zum Beispiel verschwinden die eingegebenen
 
 ## Reflexion
 
-✍Was ging gut, was ging weniger gut? Was haben Sie gelernt, und was würden Sie bei der nächsten Lernperiode versuchen besser zu machen? Fassen Sie auch einen übergeordneten Vorsatz für Ihr nächstes Jahr im Lernatelier (100 bis 200 Wörter).
-
-
-Das Arbeiten mit der Datenbank, war für mich gesehen das einfachste and diesem Projekt, es war nicht sehr schwer die datenbank zu erstellen, der eigentliche schwere punkt war es die datenbank mit meinen code zu verbinden, weil ich 
+Die Arbeit mit der Datenbank war für mich der einfachste Teil dieses Projekts. Die Erstellung der Datenbank selbst war nicht besonders schwierig. Der eigentliche schwierige Teil bestanddarin, die Datenbank mit meinem Code zu verbinden, dafür musste ich nähmlich neue Buttons einfügen und Teile des Codes anpassen.
+Nachdem ich diese Verbindung erfolgreich hergestellt hatte, wollte ich noch eine neue Funktion coden. Das führte leider dazu, dass mein Code abstürzte und von vorne beginnen musste.
+Trotz einiger verbleibender Fehler bin ich insgesamt zufrieden mit dem Ergebnis, weil es mein erstes Projekt war, in dem ich eine Datenbank in ein Programm verbunden habe.
+Für nächstes Jahr nehme ich mir vor, einen noch besseren Code zu schreiben und eine noch grössere Datenbank mit mehreren Tabellen zu erstellen.
