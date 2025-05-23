@@ -1,5 +1,7 @@
 # Lernperiode 5
 
+![image](https://github.com/user-attachments/assets/2546ac70-df9d-4016-bd22-cad4813ad053)
+
 2.5 bis 23.5
 
 ## Grob-Planung
