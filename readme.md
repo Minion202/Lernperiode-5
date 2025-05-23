@@ -55,7 +55,7 @@ Heute habe ich versucht, die bisherigen Fehler in meinem Code zu korrigieren. Zw
 
 ## Fertiges Projekt
 
-In meinem fertigen Projekt habe ich den bestehenden Code des Memoryspiels erfolgreich mit einer Datenbank verbunden. Nun wird jedes Spiel zwischen zwei Spielern automatisch in der Datenbank erfasst, wann gespielt wurde, sowie die gewinner des Spiels. Bei der Auswahl des Zwei-Spieler-Modus kann man auch die Namen der Spieler eingeben.
+In meinem fertigen Projekt habe ich den bestehenden Code des Memoryspiels erfolgreich mit einer Datenbank verbunden. Nun wird jedes Spiel zwischen zwei Spielern automatisch in der Datenbank erfasst, wann gespielt wurde, sowie wer der Gewinner des Spiels ist. Bei der Auswahl des Zwei-Spieler-Modus kann man auch die Namen der Spieler eingeben.
 Einige kleinere Fehler bestehen noch: Zum Beispiel verschwinden die eingegebenen Namen kurzzeitig, wenn ein Punkt gemacht wird. Ausserdem wird immer noch angezeigt, dass „Player 1“ oder der Name von Spieler 1 am Zug ist unabhängig vom Spielverlauf. Auch diesen Fehler werde ich später noch beheben.
 
 ## Reflexion
