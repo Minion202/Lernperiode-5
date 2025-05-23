@@ -33,6 +33,9 @@ namespace MemoryGame
         private TextBlock _player2ScoreText;
         private TextBlock _playerTurnText;
         private SqliteConnection _connection;
+        private string _player1Name = "Spieler 1";
+        private string _player2Name = "Spieler 2";
+
 
         public MainWindow()
         {
@@ -62,6 +65,27 @@ namespace MemoryGame
             var saveNewPlayerButton = this.FindControl<Button>("SaveNewPlayerButton");
             var existingPlayersComboBox = this.FindControl<ComboBox>("ExistingPlayersComboBox");
             var selectExistingPlayerButton = this.FindControl<Button>("SelectExistingPlayerButton");
+            var playerNameInputPanel = this.FindControl<StackPanel>("PlayerNameInputPanel");
+            var player1NameBox = this.FindControl<TextBox>("Player1NameBox");
+            var player2NameBox = this.FindControl<TextBox>("Player2NameBox");
+            var startTwoPlayerGameButton = this.FindControl<Button>("StartTwoPlayerGameButton");
+
+            _twoPlayerButton.Click += (s, e) =>
+            {
+                _onePlayerButton.IsVisible = false;
+                _twoPlayerButton.IsVisible = false;
+                playerNameInputPanel.IsVisible = true;
+            };
+
+            startTwoPlayerGameButton.Click += (s, e) =>
+            {
+                _player1Name = string.IsNullOrWhiteSpace(player1NameBox.Text) ? "Spieler 1" : player1NameBox.Text;
+                _player2Name = string.IsNullOrWhiteSpace(player2NameBox.Text) ? "Spieler 2" : player2NameBox.Text;
+    
+                playerNameInputPanel.IsVisible = false;
+                StartGame(true);
+            };
+
             
             _buttons = new List<Button>
             {
@@ -112,11 +136,11 @@ namespace MemoryGame
 
             _player1Score = 0;
             _player2Score = 0;
-            _player1ScoreText.Text = $"Spieler 1: {_player1Score}";
-            _player2ScoreText.Text = $"Spieler 2: {_player2Score}";
+            _player1ScoreText.Text = $"{_player1Name}: {_player1Score}";
+            _player2ScoreText.Text = $"{_player2Name}: {_player2Score}";
 
             _isPlayer1Turn = true;
-            _playerTurnText.Text = "Spieler 1 ist am Zug";
+            _playerTurnText.Text = $"{_player1Name} ist am Zug";
 
             Random rand = new Random();
             _colors = _colors.OrderBy(x => rand.Next()).ToList();
@@ -180,8 +204,11 @@ private async Task HandleSecondClickAsync()
     else
     {
         await HideUnmatchedButtonsAsync();
-        _isPlayer1Turn = !_isPlayer1Turn;
-        _playerTurnText.Text = _isPlayer1Turn ? "Spieler 1 ist am Zug" : "Spieler 2 ist am Zug";
+        _player1ScoreText.Text = $"{_player1Name}: {_player1Score}";
+        _player2ScoreText.Text = $"{_player2Name}: {_player2Score}";
+        _playerTurnText.Text = _isPlayer1Turn ? $"{_player1Name} ist am Zug" : $"{_player2Name} ist am Zug";
+
+
     }
 }
 
