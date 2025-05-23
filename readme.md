@@ -44,17 +44,16 @@ Aktuell bin ich dabei, den Fehler zu finden und zu korrigieren. Mein Codes enth�
 
 ## 23.5 Abschluss
 
-- [ ] Die Fehler, die ich gemacht habe beheben.
-- [ ] Reflexion über Ihre Arbeitsweise
-- [ ] Beschreibung des fertigen Projekts mit .gif etc.
+- [x] Die Fehler, die ich gemacht habe beheben.
+- [x] Reflexion über Ihre Arbeitsweise
+- [x] Beschreibung des fertigen Projekts mit .gif etc.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## Fertiges Projekt
 
-✍️ Beschreiben Sie hier, wie Ihr Projekt am Ende aussieht, und fügen Sie mindestens ein .gif ein.
+In meinem fertigen Projekt darum dass ich vorherigen code vom Memoryspiel mit meiner Datenbank verbunden habe. Nun zählt es jedes mal mit, wenn man gegeneinander spielt und man kann auf meiner daten bank sehen wenn und wie 
 
 ## Reflexion
 
